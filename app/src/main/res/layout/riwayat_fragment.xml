@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_riwayat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Riwayat"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+
+        />
+
+    <include layout="@layout/item_divider" />
+
+    <TextView
+        android:id="@+id/item_riwayat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:text="Item 1 (222-222-22) \nItem 2 (222-222-22) \nItem 3 (222-222-22)" />
+
+</LinearLayout>
